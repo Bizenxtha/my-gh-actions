@@ -5,6 +5,9 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
       - name: print greeting
-        run: echo "Hello Bijay!"
+        run: |
+          echo "Hello Bijay!"
+          echo "Welcome to your Github Actions first YAML file.
+          
       - name: print goodbye
         run: echo "Done -Good Bye 👋"
