@@ -7,7 +7,7 @@ jobs:
       - name: print greeting
         run: |
           echo "Hello Bijay!"
-          echo "Welcome to your Github Actions first YAML file.
+          echo "Welcome to your Github Actions first YAML file."
           
       - name: print goodbye
         run: echo "Done -Good Bye 👋"
